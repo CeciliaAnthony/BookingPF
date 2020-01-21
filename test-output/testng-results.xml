@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Group Suite" duration-ms="87772" started-at="2020-01-21T12:01:41 GST" finished-at="2020-01-21T12:03:09 GST">
+    <groups>
+      <group name="Scenario3">
+        <method signature="BookingScenarios.airportTaxis(java.lang.String, java.lang.String)[pri:0, instance:com.BookingPF.BookingScenarios@5c5a1b69]" name="airportTaxis" class="com.BookingPF.BookingScenarios"/>
+      </group> <!-- Scenario3 -->
+      <group name="Scenario2">
+        <method signature="BookingScenarios.airportTaxis(java.lang.String, java.lang.String)[pri:0, instance:com.BookingPF.BookingScenarios@5c5a1b69]" name="airportTaxis" class="com.BookingPF.BookingScenarios"/>
+        <method signature="BookingScenarios.carRentals()[pri:0, instance:com.BookingPF.BookingScenarios@5c5a1b69]" name="carRentals" class="com.BookingPF.BookingScenarios"/>
+      </group> <!-- Scenario2 -->
+      <group name="Scenario1">
+        <method signature="BookingScenarios.carRentals()[pri:0, instance:com.BookingPF.BookingScenarios@5c5a1b69]" name="carRentals" class="com.BookingPF.BookingScenarios"/>
+      </group> <!-- Scenario1 -->
+    </groups>
+    <test name="Booking Scenarios" duration-ms="87772" started-at="2020-01-21T12:01:41 GST" finished-at="2020-01-21T12:03:09 GST">
+      <class name="com.BookingPF.BookingScenarios">
+        <test-method status="PASS" signature="driverInitialization()[pri:0, instance:com.BookingPF.BookingScenarios@5c5a1b69]" name="driverInitialization" is-config="true" duration-ms="12350" started-at="2020-01-21T12:01:41 GST" finished-at="2020-01-21T12:01:54 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialization -->
+        <test-method status="PASS" signature="airportTaxis(java.lang.String, java.lang.String)[pri:0, instance:com.BookingPF.BookingScenarios@5c5a1b69]" name="airportTaxis" duration-ms="27003" started-at="2020-01-21T12:01:54 GST" finished-at="2020-01-21T12:02:21 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dubai International Airport]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Fairmont The Palm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- airportTaxis -->
+        <test-method status="PASS" signature="carRentals()[pri:0, instance:com.BookingPF.BookingScenarios@5c5a1b69]" name="carRentals" duration-ms="47506" started-at="2020-01-21T12:02:21 GST" finished-at="2020-01-21T12:03:08 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carRentals -->
+        <test-method status="PASS" signature="closeDriverSessions()[pri:0, instance:com.BookingPF.BookingScenarios@5c5a1b69]" name="closeDriverSessions" is-config="true" duration-ms="818" started-at="2020-01-21T12:03:08 GST" finished-at="2020-01-21T12:03:09 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverSessions -->
+      </class> <!-- com.BookingPF.BookingScenarios -->
+    </test> <!-- Booking Scenarios -->
+  </suite> <!-- Group Suite -->
+</testng-results>

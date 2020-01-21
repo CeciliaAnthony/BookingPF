@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Group Suite]">
+  <test thread-count="5" name="Booking Scenarios(failed)">
+    <groups>
+      <run>
+        <include name="Scenario2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.BookingPF.BookingScenarios">
+        <methods>
+          <include name="carRentals"/>
+          <include name="airportTaxis"/>
+        </methods>
+      </class> <!-- com.BookingPF.BookingScenarios -->
+    </classes>
+  </test> <!-- Booking Scenarios(failed) -->
+</suite> <!-- Failed suite [Group Suite] -->
